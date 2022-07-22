@@ -1,0 +1,48 @@
+body {
+    background-image: url("https://www.habitatswmt.org/wp-content/uploads/2021/04/Donate.jpg");
+    background-position: center;
+    
+    background-repeat: no-repeat;
+    background-size:cover;
+    width: 100%;
+    backdrop-filter: blur(0.2);
+}
+.container
+{
+    margin-top:219px;
+    max-width: 782px;
+        
+    
+}
+
+html{
+  height: -webkit-fill-available;
+}
+
+.jumbotron
+{
+    background-color:whitesmoke;
+}
+#donate_form
+{
+    padding-left: 246px;
+}
+
+@media screen and (min-device-width: 121px) and (max-device-width: 621px){
+    #donate_form
+{
+    padding-left: 10px;
+}
+}
+
+@keyframes changetext {
+  0% {
+    color: red;
+  }
+  25% {
+    color: yellow;
+  }
+  50% {
+    color: blue;
+  }
+}

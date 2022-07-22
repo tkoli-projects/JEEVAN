@@ -1,0 +1,37 @@
+body {
+    background-image: url("https://www.evanhospital.com/data/uploads/media/image/Surgery.jpg?w=1022");
+    background-position: center;
+   
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    backdrop-filter: blur(0.5);
+}
+
+html{
+  height: -webkit-fill-available;
+}
+
+.container
+{
+    margin-top:219px;
+    max-width: 782px;
+        opacity: 0.8;
+    
+}
+.jumbotron
+{
+    background-color: white;;
+}
+
+@keyframes changetext {
+  0% {
+    color: red;
+  }
+  25% {
+    color: yellow;
+  }
+  50% {
+    color: blue;
+  }
+}
